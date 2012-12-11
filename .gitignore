@@ -1,0 +1,9 @@
+patterns/*.yaml
+patterns/*.eps
+patterns/*.png
+patterns/*.dot
+test-scripts/*.yaml
+test-scripts/*.eps
+test-scripts/*.png
+test-scripts/*.dot
+Gemfile.lock
