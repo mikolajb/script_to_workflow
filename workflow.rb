@@ -39,5 +39,6 @@ elsif ARGV[1] == "operations"
 elsif ARGV[1] == "workflow"
   puts DAG.make_dependencies_dotgraph(t.get_dependencies_graph)
 elsif ARGV[1] == "yaml"
+  require 'yaml'
   puts t.get_dependencies_graph.to_yaml
 end

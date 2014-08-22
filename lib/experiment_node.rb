@@ -105,5 +105,7 @@ class Node
         return son.sons.map {|arg| arg.name}.join(', ')
       end
     end
+
+    return nil
   end
 end
